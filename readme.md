@@ -1,3 +1,3 @@
 # RxCOLMDB
 
-Columnar database using LMDB and RxJava.
+Immutable columnar database with realtime stream ingestion using LMDB and RxJava. Early results show that single column scans are able to process around 1 billion rows per second.
